@@ -50,6 +50,8 @@ public class HelloGui extends Frame {
     clear = new Button("CLEAR");
     status = new Label("Status");
     send.setActionCommand("SEND");
+    send.setBackground(Color.decode("#1e293b"));
+    send.setFocusable(false);
     text.setBounds(0, 0, 300, 30);
     send.setBounds(0, 40, 100, 30);
     clear.setBounds(100, 40, 100, 30);
